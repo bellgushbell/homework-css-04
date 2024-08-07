@@ -1,0 +1,429 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.main-wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    margin: 20px;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.introduction {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 40px;
+    margin-top: 20px;
+
+
+}
+
+.intoducetext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.downloadbutton {
+    width: 150px;
+    height: 30px;
+    color: white;
+    background-color: orangered;
+    border: white;
+}
+
+
+.recentpost {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    padding: 100px;
+    background-color: aliceblue;
+
+}
+
+.container-recentpost {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.recentpostposition {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.recentpostdetail {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    width: 418px;
+    height: 295px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+    border-radius: 4px;
+
+}
+
+.recentpostdetail * {
+    margin: 20px;
+}
+
+.viewalldetail {
+    width: 418px;
+    height: 295px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+    border-radius: 4px;
+}
+
+.viewalldetail * {
+    margin: 20px;
+}
+
+.recentpostcontent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+.recent-poststext {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+
+    text-decoration: none;
+    color: #00A8CC;
+}
+
+
+
+.view-alltext {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+
+    text-decoration: none;
+    color: #00A8CC;
+}
+
+
+
+.featuredworks {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.featuredworkstext {
+    position: relative;
+    right: 370px
+}
+
+.dashboard,
+.vibrant,
+.day,
+.component {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+
+}
+
+
+.dashimage,
+.vibrantimage,
+.dayimage,
+.componentimage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.dashcontent,
+.vibrantcontent,
+.daycontent,
+.componentcontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    margin-left: 20px;
+    gap: 20px;
+
+}
+
+.dashyear,
+.vibrantyear,
+.dayyear,
+.componentyear {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+}
+
+.dashyear .year,
+.vibrantyear .year,
+.dayyear .year,
+.componentyear .year {
+    border: 1px solid black;
+    border-radius: 20px;
+    color: white;
+    background-color: gray;
+    margin-right: 20px;
+
+}
+
+
+
+
+
+
+.blog1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 200px;
+    margin-Right: 200px;
+    position: relative;
+
+}
+
+.blog2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 200px;
+    margin-Right: 200px;
+
+}
+
+.blog3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 200px;
+    margin-Right: 200px;
+
+}
+
+.blog4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 200px;
+    margin-Right: 200px;
+    margin-bottom: 50px;
+
+}
+
+.blog .h2 .h3 .p {
+    margin-bottom: 100px;
+}
+
+.blogtitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-bottom: 30px;
+    position: relative;
+    right: 100px;
+
+}
+
+.blogcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    margin-top: 80px;
+    margin-bottom: 200px;
+    gap: 20px;
+}
+
+.footericon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.currentlink:active {
+    color: orange;
+}
+
+
+.menu3lineicon {
+    display: none;
+}
+
+@media(max-width:900px) {
+
+
+    .navbar strong {
+        opacity: 0;
+    }
+
+    .menu3lineicon {
+        display: flex;
+        margin-left: 500px;
+    }
+
+
+
+
+
+
+
+
+    /*home page*/
+    .introduction {
+        flex-direction: column-reverse;
+
+    }
+
+    .intoducetext {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .recentpostcontent {
+        flex-direction: column;
+
+    }
+
+    .dashcontent,
+    .vibrantcontent,
+    .daycontent,
+    .componentcontent {
+        width: 200px;
+    }
+
+    .featuredworkstext {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        right: 170px;
+    }
+
+    .featuredworks {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+        position: relative;
+
+    }
+
+    .footer {
+        position: relative;
+    }
+
+    /*blog page*/
+    .blog1,
+    .blog2,
+    .blog3,
+    blog4 {
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    /*works page*/
+}
